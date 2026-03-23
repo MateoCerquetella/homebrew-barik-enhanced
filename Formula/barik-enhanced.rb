@@ -1,9 +1,9 @@
 class BarikEnhanced < Formula
   desc "Custom Menu Bar for macOS with 20+ configurable widgets"
   homepage "https://github.com/MateoCerquetella/barik-enhanced"
-  url "https://github.com/MateoCerquetella/barik-enhanced/releases/download/v1.0.0/BarikEnhanced.zip"
-  sha256 "1c653268f17b0fbab5dc010913cd5ec0a5b708195138f2bd184256341a119f9e"
-  version "1.0.0"
+  url "https://github.com/MateoCerquetella/barik-enhanced/releases/download/v1.1.0/BarikEnhanced.zip"
+  sha256 "ab2c3b6ca5b76abdc4e19e46c9edd284cf50af6a3056dd113c72b2642703f8f8"
+  version "1.1.0"
 
   def install
     app = Pathname.pwd/"Barik.app"

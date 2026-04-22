@@ -4,7 +4,7 @@ cask "barik-enhanced" do
 
   url "https://github.com/MateoCerquetella/barik-enhanced/releases/download/v#{version}/BarikEnhanced.zip"
   name "Barik Enhanced"
-  desc "Custom Menu Bar for macOS with 20+ configurable widgets"
+  desc "Custom menu bar with 20+ configurable widgets"
   homepage "https://github.com/MateoCerquetella/barik-enhanced"
 
   depends_on macos: ">= :sonoma"

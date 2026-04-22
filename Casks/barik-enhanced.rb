@@ -1,6 +1,6 @@
 cask "barik-enhanced" do
-  version "1.2.8"
-  sha256 "7543bd94e42f5528dc971db39023d248d418719c31023a04b5365e85055052fa"
+  version "1.2.9"
+  sha256 "4b0a7d4fcd55c85f60096c6506a3358104c7106abf71aca498c5c854901ccf02"
 
   url "https://github.com/MateoCerquetella/barik-enhanced/releases/download/v#{version}/BarikEnhanced.zip"
   name "Barik Enhanced"
@@ -9,7 +9,7 @@ cask "barik-enhanced" do
 
   depends_on macos: ">= :sonoma"
 
-  app "Barik Enhanced.app"
+  app "Barik.app"
 
   zap trash: [
     "~/.barik-config.toml",
@@ -21,7 +21,7 @@ cask "barik-enhanced" do
     Barik Enhanced is a menu bar replacement app.
 
     To start:
-      open -a "Barik Enhanced"
+      open -a Barik
 
     Right-click the menu bar to configure widgets.
     Enable "Launch at Login" from the gear icon menu.

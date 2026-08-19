@@ -1,6 +1,6 @@
 cask "barik-enhanced" do
-  version "1.5.0"
-  sha256 "c5c68c43804c9f9b77fedc961759b1d9d85b24d7cf31fa89f6d24e0cdb811042"
+  version "1.6.0"
+  sha256 "2ed017d486982ba046b3bcf1b7f8067fa6843ce0c8df186ebd1734cbc23b11f5"
 
   url "https://github.com/MateoCerquetella/barik-enhanced/releases/download/v#{version}/BarikEnhanced.zip"
   name "Barik Enhanced"
@@ -25,6 +25,9 @@ cask "barik-enhanced" do
 
     Right-click the menu bar to configure widgets.
     Enable "Launch at Login" from the gear icon menu.
+
+    This build is not Apple-notarized. If macOS blocks the first launch,
+    Control-click BarikEnhanced.app in Applications and choose Open.
 
     Requires a window manager like AeroSpace or yabai for the Spaces widget.
   EOS

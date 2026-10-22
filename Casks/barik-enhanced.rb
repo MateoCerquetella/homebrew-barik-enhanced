@@ -1,6 +1,6 @@
 cask "barik-enhanced" do
-  version "1.8.4"
-  sha256 "696dd0fe8ffe2c7b1723663e23d65efe597064f1e6d3dd63adcd85a291e24e7a"
+  version "1.8.5"
+  sha256 "47766c0d6ac6af8fb4d725294b50776bf32e3965b80e6165d8042cad2a403237"
 
   url "https://github.com/MateoCerquetella/barik-enhanced/releases/download/v#{version}/BarikEnhanced.zip"
   name "Barik Enhanced"
